@@ -1,0 +1,23 @@
+very helpful to have code with changes side by side for finding errors. 
+much easier than looking through all the lines. 
+this will be helpful for the scheduler program because it is getting more complicated.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+spend less time searching for bugs and quickly get back to a previous working version wihout having to rewrite code
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+pros - you can choose logical places to make changes like only if code is working or if a bug was just fixed
+cons - i may forget to create a commit for too long
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+git seems to be more designed for coders who would be lost likely to need such functionality.
+google docs seems like it is created more for keeping track of documents and spreadsheets and such
+
+How can you use the commands git log and git diff to view the history of files?
+can view a whole list of all commits to date and then seee the differences between any two of them.
+
+How might using version control make you more confident to make changes that could break something?
+
+you will be able to see exactly what changed and get back to a previous working version
+
+Now that you have your workspace set up, what do you want to try using Git for?
+version control for bible study scheduler program
