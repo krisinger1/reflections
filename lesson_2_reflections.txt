@@ -3,3 +3,15 @@ a hidden file .git is created
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 staging area lists the files you are going to want to commit. Keep track of which files you need to commmit
+
+How can you use the staging area to make sure you have one commit per logical change?
+you can see which changes you've made before committing and which files you are about to commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+when trying out an experimental feature or a different version. my GUI bible study scheduler would have probably been a branch
+
+How do the diagrams help you visualize the branch structure?
+they show what commits  can be reached from each branchnandvwhen one may be unreachable
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+combines changes from both branches and it becaomes the new tip of the branch merged into. commmits from both branches previous to the merge can still be reached but are now in lone list when you run git log.
