@@ -15,3 +15,6 @@ they show what commits  can be reached from each branchnandvwhen one may be unre
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 combines changes from both branches and it becaomes the new tip of the branch merged into. commmits from both branches previous to the merge can still be reached but are now in lone list when you run git log.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+auto merging is quick and good if the merge is obvious. Manual is good when there are two people who have made changes that may conflict with each other
