@@ -8,10 +8,16 @@ there may be conflicts between what you are currently working on and the state o
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 clone makes a copy of a repository. Fork makes a copy but retains the connection back to the original. 
 you can't make changes to the origianl repository, but can make commits to the fork in your own repository. it's easier than cloning someones 
-repository and retains the info that it was someones elses work originally. branches are work on a project that you do not want to (yet) commit to the master branch. Like a new feature you are tring to add but us not ready yet or a bug you are trying to fix.
+repository and retains the info that it was someones elses work originally. branches are work on a project that you do not want to (yet) 
+commit to the master branch. Like a new feature you are tring to add but us not ready yet or a bug you are trying to fix.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 you will know when your version is out of sync with the remote and you have a reference point for a merge if needed when you fetch the remote
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 work on same computer and take turns or email the code back and forth
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+if you were afraid your changes might break the master, especially if you were needing to keep a working version of master available. Or if you are working with 
+someone else you don't want to be changing the same code at the same time. working just in master is a much simpler workflow which might be good if you are the 
+only one working on the code.
